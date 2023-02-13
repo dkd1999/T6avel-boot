@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>T6avel</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="travel2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <img class="img-fluid"
+                    src="https://wallpaperaccess.com/full/185328.jpg"
+                    alt="no">
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6">Travel </div>
+                    </div>
+            </div>
+            <div class="Navi">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                    <!--fixed top required to stick to top stack on top-->
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">T6avel</a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#"
+                                        role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Packages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Honeymoon</a></li>
+                                        <li><a class="dropdown-item" href="#">Family</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Custom</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Transport</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Hotels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Button trigger modal -->
+        <div class="text-center">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                Enquire
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+            data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Enquiry
+                            Form</h1>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1"
+                                    class="form-label">Email address</label>
+                                <input type="email" class="form-control"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll
+                                    never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1"
+                                    class="form-label">Password</label>
+                                <input type="password" class="form-control"
+                                    id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input"
+                                    id="exampleCheck1">
+                                <label class="form-check-label"
+                                    for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center mt-5">Honeymoon Packages</h1>
+        <div class="car">
+            <div class="card-group" style="max-width: 100vw;">
+                <div class="card rounded">
+                    <img height="399vh"
+                        src="https://media-cdn.tripadvisor.com/media/photo-s/1b/f4/56/f1/aerial-view.jpg"
+                        class="card-img-top img-fluid" alt="nah">
+                    <div class="card-body">
+                        <h5 class="card-title">Maldives</h5>
+                        <p class="card-text">Why are <kbd>Maldives</kbd> famous?
+                            The Maldives is famous for a number of reasons,
+                            including its vibrant culture, pristine beaches,
+                            sprawling greenery, and fascinating landmarks. Apart
+                            from the numerous enchanting landmarks, Maldives is
+                            also famous for water sports and other adventure
+                            activities.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="bg-image hover-zoom">
+                        <img height="399vh"
+                            src="https://cdn.britannica.com/06/171306-050-C88DD752/Aurora-borealis-peninsula-Snaefellsnes-Iceland-March-2013.jpg"
+                            class="card-img-top img-fluid" alt="nah">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Iceland</h5>
+                        <p class="card-text"><kbd>Iceland</kbd> is most famous
+                            for its rugged landscapes and scenery. The Northern
+                            Lights, Blue Lagoon, volcanoes, glaciers, and
+                            waterfalls top the list of must-sees. Iceland is
+                            also famous for its history and being settled by the
+                            Vikings. It is known as “The Land of Fire and Ice”
+                            due to its contrasting landscapes.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img height="399vh"
+                        src="https://cdn.britannica.com/48/102748-050-ECFD33AF/Singapore-skyline.jpg"
+                        class="card-img-top img-fluid" alt="nah">
+                    <div class="card-body">
+                        <h5 class="card-title">Singapore</h5>
+                        <p class="card-text">Singapore is famous for being a
+                            global financial center, being among the most
+                            densely populated places in the world, having a
+                            world-class city airport with a waterfall, and a
+                            Botanic Garden that is a World Heritage Site. <br><br></p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"><button type="button" class="btn btn-primary
+                btn-lg text-center mt-4">More Packages</button>
+        </div>
+        <div class="row ms-1 me-1 mt-5 ">
+            <div class="col-lg-6 mt-5">
+                <iframe class="img-fluid w-100 h-100"
+                    src="https://www.youtube.com/embed/yLE5bDX7M3Y"
+                    title="Kerala Tourist Places | Kerala Tour Plan for 2022"
+                    frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6">
+                <h1>Traditional images</h1>
+                <img class="img-fluid"
+                    src="https://thegrandindianroute.com/media/SEO/15-aspects-of-Kerala-culture-Cover1.jpg"
+                    alt="no">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5 img-fluid">
+            <div class="card me-2" style="width: 18rem;">
+                <img class="img-fluid h-100"
+                    src="https://png.pngtree.com/png-vector/20220804/ourmid/pngtree-silhouette-couple-over-a-motorcycle-png-image_5750090.png"
+                    class="card-img-top" alt="no">
+                <div class="card-body img-fluid">
+                    <h5 class="card-title">Free Bike Ride</h5>
+                    <p class="card-text">Earn a free bike ride for selected
+                        customers</p>
+                    <a href="#" class="btn btn-primary">Book my ride now</a>
+                </div>
+            </div>
+            <div class="card me-2" style="width: 18rem;">
+                <img class="img-fluid h-100"
+                    src="https://www.nicepng.com/png/detail/1-17020_cartoon-fire-png-cartoon-campfire-png.png"
+                    class="card-img-top" alt="no">
+                <div class="card-body">
+                    <h5 class="card-title">Camp Fire</h5>
+                    <p class="card-text">Take a Camp at the most scenic sites
+                        for a life-time filled memory.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="img-fluid h-100"
+                    src="https://www.pngitem.com/pimgs/m/459-4590043_24-hour-service-support-24-7-icon-png.png"
+                    class="card-img-top" alt="no">
+                <div class="card-body">
+                    <h5 class="card-title">24X7 Support</h5>
+                    <p class="card-text">Have any issues, Contact us anytime
+                        with no worries.</p>
+                    <a href="#" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center
+                justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3 text-secondary"></i>T6avel
+                            </h6>
+                            <p>
+                                An independant Travel organization dedicated on
+                                providing easy and accessible methods to travel.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                       
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0
+                            mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3 text-secondary"></i>
+                                New York, NY 10012, US</p>
+                            <p>
+                                <i class="fas fa-envelope me-3 text-secondary"></i>
+                                info@example.com
+                            </p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i>
+                                + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3 text-secondary"></i>
+                                + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
+                0.025);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">T6avel.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </html>

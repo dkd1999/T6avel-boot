@@ -1,0 +1,27 @@
+
+/* .row h1{
+    position: relative;
+    top: -900px;
+    font-size: 80px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+} */
+
+.btn-warning{
+    margin-top: -450px;
+    font-size:23px;
+    /* padding: 10px 10px 10px 10px; */
+}
+a{
+    text-decoration: none;
+}
+/* .Morepckg{
+    display:flex;
+    justify-content: center;
+    width: 60px;
+} */
+
+/* .cont{
+    padding-left: 0px;
+    padding-right: 0px;
+} */
