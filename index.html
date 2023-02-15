@@ -22,7 +22,7 @@
                 <h1>To Travel <br> <span>is</span> <br> To Live</h1>
             </div>
             <div class="Navi">
-                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <nav class="navbar fixed-top navbar-expand-lg">
                     <!--fixed top required to stick to top stack on top-->
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">T6avel</a>
@@ -44,10 +44,10 @@
                                     <a class="nav-link" href="#pack">Packages</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">Hotels</a>
+                                    <a class="nav-link" href="#upcoming">Upcoming</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">Support</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -304,6 +304,9 @@
                 </section>
             </div>
         </div>
+        <div>
+            <h2 class="text-center mt-5 mb-5">Upcoming Travel Destinations</h2>
+        </div>
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions"
@@ -314,29 +317,26 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="upcoming">
                 <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="https://foodandtravel.mx/wp-content/uploads/2020/06/Travel-Bloggers.jpg" class="d-block w-100 img-fluid" alt="no">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first
-                            slide.</p>
+                        <h5>Take a fresh breath</h5>
+                        <p>Known as the 'Land of Smiles'.Take a wonderful trip to Thailand to experience its mouth-watering food, monasteries, stunning landscapes, pristine beaches</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="./caribbean-encounter-trip-111.jpg" class="d-block w-100 img-fluid" alt="no">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the
-                            second slide.</p>
+                        <h5 class="santa">Take a breezy ride along the sands of time</h5>
+                        <p class="santa">Santa Monica beach, California.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="https://www.andbeyond.com/wp-content/uploads/sites/5/3-generations-of-a-family-walking-on-the-beach.jpg" class="d-block w-100 img-fluid" alt="no">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third
-                            slide.</p>
+                        <h5 class="santa">Enjoy the Good times with la familia</h5>
+                        <p class="santa">The Baths, British Virgin Islands</p>
                     </div>
                 </div>
             </div>
@@ -369,41 +369,57 @@
                     alt="no">
             </div>
         </div>
-        <div class="d-flex justify-content-center mt-5 mb-5 img-fluid">
-            <div class="card me-2" style="width: 18rem;">
-                <img class="img-fluid h-100"
-                    src="https://png.pngtree.com/png-vector/20220804/ourmid/pngtree-silhouette-couple-over-a-motorcycle-png-image_5750090.png"
-                    class="card-img-top" alt="no">
-                <div class="card-body img-fluid">
-                    <h5 class="card-title">Free Bike Ride</h5>
-                    <p class="card-text">Earn a free bike ride for selected
-                        customers</p>
+       <container class="me-5 ms-1">
+       <!-- ----------------------------------------- -->
+       <div class="container-fluid">
+           <div class="row row-cols-2 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://png.pngtree.com/png-vector/20220804/ourmid/pngtree-silhouette-couple-over-a-motorcycle-png-image_5750090.png" class="card-img-top img-fluid" alt="no">
+                <div class="card-body">
+                  <h5 class="card-title">Free Bike Ride</h5>
+                  <p class="card-text">Earn a free bike ride for selected
+                    customers.</p> <br>
                     <a href="#" class="btn btn-primary">Book my ride now</a>
                 </div>
+              </div>
             </div>
-            <div class="card me-2" style="width: 18rem;">
-                <img class="img-fluid h-100"
-                    src="https://www.nicepng.com/png/detail/1-17020_cartoon-fire-png-cartoon-campfire-png.png"
-                    class="card-img-top" alt="no">
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.nicepng.com/png/detail/1-17020_cartoon-fire-png-cartoon-campfire-png.png" class="card-img-top img-fluid" alt="no">
                 <div class="card-body">
-                    <h5 class="card-title">Camp Fire</h5>
-                    <p class="card-text">Take a Camp at the most scenic sites
-                        for a life-time filled memory.</p>
+                  <h5 class="card-title">Camp Fire</h5>
+                  <p class="card-text">Take a Camp at the most scenic sites
+                    for a life-time filled memory.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
+
                 </div>
+              </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img class="img-fluid h-100"
-                    src="https://www.pngitem.com/pimgs/m/459-4590043_24-hour-service-support-24-7-icon-png.png"
-                    class="card-img-top" alt="no">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.pngitem.com/pimgs/m/459-4590043_24-hour-service-support-24-7-icon-png.png" class="card-img-top img-fluid" alt="no">
                 <div class="card-body">
-                    <h5 class="card-title">24X7 Support</h5>
-                    <p class="card-text">Have any issues, Contact us anytime
-                        with no worries.</p>
-                    <a href="#" class="btn btn-primary">Contact Us</a>
+                  <h5 class="card-title">24 X 7</h5>
+                  <p class="card-text">Have any quries, Contact us anytime
+                    with no worries. </p>
+                    <a href="#" class="btn btn-primary">Contact</a>
                 </div>
+              </div>
             </div>
-        </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/city-bus-design-template-18f28440fbe29abe3ae944e556e9a52d_screen.jpg?ts=1626774156" class="card-img-top" alt="no">
+                <div class="card-body">
+                  <h5 class="card-title">Transport </h5>
+                  <p class="card-text">Not a fan of walking, use our transport services to get to your destinations.</p>
+                  <a href="#" class="btn btn-primary">Book my ride now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-white text-muted">
             <!-- Section: Social media -->
@@ -441,7 +457,7 @@
             <!-- Section: Social media -->
 
             <!-- Section: Links  -->
-            <section>
+            <section id="contact">
                 <div class="container text-center text-md-start mt-5">
                     <!-- Grid row -->
                     <div class="row mt-3">
