@@ -31,8 +31,8 @@
     .head span{
         font-size: 50px;
     }
-    .img-hover-zoom{
-        height: 250px;
+    .img-hover-zoom img{
+        height:280px;
         overflow: hidden;
     }
     .img-hover-zoom img {
@@ -46,7 +46,7 @@
     color: rgb(0, 0, 0);
 }
 .img-hover-zoom{
-    height: 400px;
+    height: 300px;
     overflow: hidden;
 }
 .img-hover-zoom img {
