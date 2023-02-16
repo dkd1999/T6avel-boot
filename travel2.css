@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zeyada&display=swap');
 .head{
     background: url('https://wallpaperaccess.com/full/185328.jpg');
+    /* background: url('https://www.xtrafondos.com/en/descargar.php?id=7254&resolucion=3840x2160'); */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -27,12 +28,19 @@
         font-size: 80px;
     }
 }
-.img1{
- 
-}
 .santa{
     color: rgb(0, 0, 0);
 }
+.img-hover-zoom{
+    height: 430px;
+    overflow: hidden;
+}
+.img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
 /* .row h1{
     position: relative;
     top: -900px;
@@ -41,9 +49,10 @@
     color: rgb(0, 0, 0);
 } */
 
-.btn-warning{
+.btn-info{
     margin-top: -450px;
-    font-size:23px;
+    font-size:19px;
+    font-weight: 500;
     /* padding: 10px 10px 10px 10px; */
 }
 a{
