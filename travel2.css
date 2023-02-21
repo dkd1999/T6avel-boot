@@ -25,7 +25,9 @@
 #imglogo{
     height:25px ;
 }
-
+#caption h1{
+    color: rgb(218, 209, 198);
+}
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +37,7 @@ body {
   overflow: hidden;
   background:linear-gradient(to bottom, #000, #0003 70%,#0000);
   position:fixed;
-  width: 100vw;
+  width: 101vw;
   z-index: 999;
   top: 0;
   height: 55px;
