@@ -17,16 +17,31 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
+        <div class="topnav" id="myTopnav">
+            <!-- <a href=""><img id="logo" src="./2t6v.png" alt=""></a> -->
+            <a href="#" class="active">T<span>6</span>avel </a>
+            <a href="#pack">Packages</a>
+            <a href="#upcoming">Upcoming</a>
+            <a href="#trvlprep">Travel Prep</a>
+            <a href="#more">More</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <main></main>
         <header>
+           
             <div id="caption" class="head img-fluid">
                 <h1>To Travel <br> <span>is</span> <br> To Live</h1>
             </div>
             <video autoplay muted loop id="vidback" src="./beach-148970.mp4" type="video/mp4"></video>
             <div class="Navi">
-                <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+                
+                <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <!--fixed top required to stick to top stack on top-->
-                    <div class="container-fluid">
-                        <a class="navbar-brand fw-bold text-white" href="#"> <img src="./2t6v.png" height="40px" alt="T6-logo"></a>
+                    <!-- <div class="container-fluid">
+                        <a  class="navbar-brand fw-bold text-white" href="#"> <img id="imglogo" src="./2t6v.png" height="40px" alt="T6-logo"></a>
                         <button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarNav"
@@ -56,7 +71,7 @@
                             </ul>
                         </div>
                     </div>
-                </nav>
+                </nav> -->
             </div>
         </header>
         <!-- Button trigger modal -->
@@ -379,8 +394,8 @@
             </button>
         </div>
 
-        <div>
-            <h2 class="text-center mt-5 mb-5">Travel Prep</h2>
+        <div id="trvlprep">
+            <h2  class="text-center mb-1">Travel Prep</h2>
         </div>
             <div class="row ms-1 me-1 mt-5">
             <div class="col-lg-6 mt-5 mb-5">
@@ -390,9 +405,10 @@
                 </div>
             </div>
             <div class="col-lg-6 mt-5">
-                <div class="ratio ratio-16x9"><iframe
-                        src="https://www.youtube.com/embed/MyqhDKNig88"
-                        title="YouTube video" allowfullscreen></iframe></div>
+                 <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/PQefqx7rAS4" 
+                        title="YouTube video" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <container class="me-5 ms-1">
@@ -512,28 +528,15 @@
 
                     <!-- Right -->
                     <div>
-                        <a href="https://www.facebook.com/" class="me-4
-                            link-secondary">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a
-                            href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                            target="_blank" class="me-4 link-secondary">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.google.co.in/" target="_blank"
-                            class="me-4 link-secondary">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank"
+                        <a href="https://www.instagram.com/petrolhead_360/?next=%2F" target="_blank"
                             class="me-4 link-secondary">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://in.linkedin.com/" target="_blank"
+                        <a href="https://www.linkedin.com/in/dev-krishna-0141b9238/" target="_blank"
                             class="me-4 link-secondary">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/" target="_blank"
+                        <a href="https://github.com/dkd1999" target="_blank"
                             class="me-4 link-secondary">
                             <i class="fab fa-github"></i>
                         </a>
@@ -629,5 +632,16 @@
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-                crossorigin="anonymous"></script>
+                crossorigin="anonymous">
+            </script>
+            <script>
+                    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+            </script>
         </html>
